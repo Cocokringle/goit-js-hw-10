@@ -66,7 +66,7 @@ function AddCountryInfo(data){
         </li>
         <li class="country-info-item">
           <h2>Languages:</h2>
-          <p class="info-value">${item.languages}</p>
+          <p class="info-value">${Object.values(item.languages)}</p>
         </li>
       </ul>`
     }
